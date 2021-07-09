@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  max-width: 100%;
+  background-color: hsl(204, 43%, 93%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 12.8px);
+}
+
+.container {
+  width: 50%;
+  min-height: calc(60vh - 12.8px);
+}
+
+.top-content {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.top-content-container {
+  width: 90%;
+}
+
+.heading {
+  color: hsl(179, 62%, 43%);
+  padding: 30px 0px 20px 0px;
+}
+
+.heading2 {
+  color: hsl(71, 73%, 54%);
+  padding: 15px 0px 20px 0px;
+}
+
+.paragraph {
+  color: #d3d3d3;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 0px 30px 0px;
+}
+
+.bottom-content {
+  display: flex;
+  min-height: calc(40vh - 12.8px);
+}
+
+.pricing {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.pricing-content {
+  width: 80%;
+  min-height: calc(20vh - 12.8px);
+}
+
+.heading3 {
+  color: hsl(204, 43%, 93%);
+  padding: 0px 0px 20px 0px;
+}
+.heading4 {
+  color: hsl(204, 43%, 93%);
+  padding: 0px 0px 20px 0px;
+}
+.heading5 {
+  color: hsl(204, 43%, 93%);
+  padding: 0px 0px 20px 0px;
+}
+.heading6 {
+  color: hsl(204, 43%, 93%);
+  padding: 20px 0px 20px 0px;
+}
+
+.list {
+  width: 100%;
+  background-color: hsl(179, 62%, 43%);
+  filter: opacity(70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 4px;
+  padding: 20px 0;
+  color: hsl(204, 43%, 93%);
+  cursor: pointer;
+  border: none;
+  margin: 15px 0px 20px 0px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.list-container {
+  width: 80%;
+  min-height: calc(30vh - 12.8px);
+}
+
+.list-system > li {
+  list-style: none;
+  color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  padding: 5px 0px 0px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .bottom-content {
+    flex-direction: column;
+  }
+
+  main {
+    margin: 30px 0px;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .heading3 {
+    margin-top: 15px;
+  }
+}
